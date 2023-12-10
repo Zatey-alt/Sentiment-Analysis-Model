@@ -24,6 +24,3 @@ def predict():
     except Exception as e:
         print('Exception in predict method, Something went wrong!: ', e)
         return jsonify({'Error': str(e)})
-
-if __name__ == '__main__':
-    app.run(debug=True)
