@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\micha\Desktop\Model_Deployment\venv
+set VIRTUAL_ENV=C:\Users\micha\Desktop\Sentiment Analysis Model\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
